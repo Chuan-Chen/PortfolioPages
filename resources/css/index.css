@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  background: rgb(34,170,195);
+  background: linear-gradient(0deg, rgba(34,170,195,1) 0%, rgba(45,122,253,1) 100%) fixed;
+}
+
+.ProfileIMG {
+  background-image: url(../img/Profile_IMG.jpg);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Courier_New {
+  color: #597a76;
+  font-family: "Courier New";
+  font-size: 100px;
+}
