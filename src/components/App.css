@@ -1,34 +1,9 @@
-
-:root{
-    --background-color: #ce8b9c;
-    --footer--icon-hover-color: grey;
-  }
-  
-  body{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+body{
     margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.container{
     height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    -ms-overflow-Style: none;
-    scrollbar-width: none;
-    overflow-y: scroll;
-  
-    
-  }
-  body::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .main{
-    display: flex;
-    flex:1;
-  }
-  .main img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
-  }
-  
-  
-  
+}

@@ -31,6 +31,11 @@
   }
   
   .img:hover{
-    background-color: var(--footer--icon-hover-color);
+    
     transform: translateY(-5px);
+  }
+
+  .icon-shelf{
+    display: flex;
+    gap: 10px;
   }
