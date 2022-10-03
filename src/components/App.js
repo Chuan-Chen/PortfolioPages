@@ -7,6 +7,7 @@ export default function App(){
 
     return (
         <div className = "container">
+            
             <Intro/>
             <Footer/>
         </div>
