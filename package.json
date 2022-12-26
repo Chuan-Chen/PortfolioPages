@@ -4,9 +4,10 @@
   "description": "Personal website showcasing projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config webpack.config.js --open --hot",
-    "build": "webpack --mode production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Chuan-Chen/PortfolioPages/issues"
   },
-  "homepage": "https://github.com/Chuan-Chen/PortfolioPages#readme",
+  "homepage": "https://github.com/Chuan-Chen/PortfolioPages",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -30,10 +31,23 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

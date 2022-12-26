@@ -16,3 +16,10 @@ body{
     width: 5px;
     background-color: #7C7C7C;
 }
+
+.center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
