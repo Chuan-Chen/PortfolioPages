@@ -1,0 +1,12 @@
+.resume{
+    min-width: 800px;
+    min-height: 500px;
+    border: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .resume{
+        display: none;
+    }
+}
+  

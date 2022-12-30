@@ -7,7 +7,7 @@ export default function Header(){
 
     return (
         <div className="header">
-            
+            Work in progress...
         </div>
     );
 }
