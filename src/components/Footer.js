@@ -17,7 +17,7 @@ export default function Footer(props){
  
     <div className = "footer">
         <div>
-            Copyright © 2022 <a href = "https://github.com/Chuan-Chen">Whykari</a>
+            Copyright © 2023 <a href = "https://github.com/Chuan-Chen">Whykari</a>
         </div>
         <div className = "icon-shelf">
             
