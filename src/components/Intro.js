@@ -6,7 +6,8 @@ import Profile_img from "../images/Profile.jpg";
 function Profile(props){
     return (
         <div style = {{display: "grid", height: 250}}>
-            <img src = {Profile_img} height = {160} style={{borderRadius: "100%", justifySelf: "center", alignSelf: "center", boxShadow: "0 0 5px black"}}></img>
+            <img src = {Profile_img} height = {160} style={{borderRadius: "100%", justifySelf: "center", alignSelf: "center", boxShadow: "0 0 4px black"}}></img>
+            <div style = {{width:"100%", fontSize: "30px", textAlign: "center", fontWeight: "bold"}}>Chuan Chen</div>
         </div>
     )
 }
@@ -16,6 +17,7 @@ export default function Intro(props){
     return (
         <div className = "intro">
             <Profile></Profile>
+            <br></br>
             <div>Resume📄: <a href = {Resume} alt = "Resume" target = "_blank">Resume</a></div>
             <div>Phone📞: (917)605-6373</div>
             <div>Email📧: <a href = "mailto:chuan.chen.info@gmail.com">chuan.chen.info@gmail.com</a></div>
