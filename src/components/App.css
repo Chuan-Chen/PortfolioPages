@@ -2,10 +2,13 @@
 body{
     margin: 0;
     font-family: 'Noto Sans Mono', monospace;
+    background-color: #ece2d0;
 }
 
 .container{
     height: 100vh;
+    
+    
 }
 
 ::-webkit-scrollbar{
@@ -22,4 +25,5 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
+
 }

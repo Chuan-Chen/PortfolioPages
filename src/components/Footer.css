@@ -12,14 +12,13 @@
   
   .footer a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-shadow: 0 0 10px black;
   }
   
   .footer a:hover{
     color: rgb(169, 169, 169)
   }
-  
   
   /* 
   justicon-icon pack, credits goes to all authors
