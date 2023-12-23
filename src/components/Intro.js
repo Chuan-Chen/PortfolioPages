@@ -5,8 +5,8 @@ import Profile_img from "../images/Profile.jpg";
 
 function Profile(props){
     return (
-        <div style = {{display: "grid", height: 200}}>
-            <img src = {Profile_img} height = {150} style={{borderRadius: "100%", justifySelf: "center", boxShadow: "0 0 5px black"}}></img>
+        <div style = {{display: "grid", height: 250}}>
+            <img src = {Profile_img} height = {160} style={{borderRadius: "100%", justifySelf: "center", alignSelf: "center", boxShadow: "0 0 5px black"}}></img>
         </div>
     )
 }
