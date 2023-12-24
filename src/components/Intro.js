@@ -4,6 +4,9 @@ import Resume from "../files/Chuan_Chen_Resume.pdf"
 import Profile_img from "../images/Profile.jpg";
 
 function Profile(props){
+
+    
+
     return (
         <div style = {{display: "grid", height: 250}}>
             <img src = {Profile_img} height = {160} style={{borderRadius: "100%", justifySelf: "center", alignSelf: "center", boxShadow: "0 0 4px black"}}></img>
