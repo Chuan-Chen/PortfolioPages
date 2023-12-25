@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chuan-Chen/PortfolioPages/static/css/main.172c4f28.css",
-    "main.js": "/Chuan-Chen/PortfolioPages/static/js/main.a25c73fa.js",
+    "main.css": "/Chuan-Chen/PortfolioPages/static/css/main.2a11d655.css",
+    "main.js": "/Chuan-Chen/PortfolioPages/static/js/main.a1d03a91.js",
     "static/media/Profile.jpg": "/Chuan-Chen/PortfolioPages/static/media/Profile.9f9ca73bb8655ba4eb9a.jpg",
     "static/media/Chuan_Chen_Resume.pdf": "/Chuan-Chen/PortfolioPages/static/media/Chuan_Chen_Resume.a2615b72479c04c26289.pdf",
     "static/media/github_icon.png": "/Chuan-Chen/PortfolioPages/static/media/github_icon.cf689a47e6d1229c311a.png",
@@ -10,11 +10,11 @@
     "static/media/gmail_icon.png": "/Chuan-Chen/PortfolioPages/static/media/gmail_icon.1ea1ad5ff6a827f59bee.png",
     "static/media/linkedin_icon.png": "/Chuan-Chen/PortfolioPages/static/media/linkedin_icon.6773075d296dff8ca440.png",
     "index.html": "/Chuan-Chen/PortfolioPages/index.html",
-    "main.172c4f28.css.map": "/Chuan-Chen/PortfolioPages/static/css/main.172c4f28.css.map",
-    "main.a25c73fa.js.map": "/Chuan-Chen/PortfolioPages/static/js/main.a25c73fa.js.map"
+    "main.2a11d655.css.map": "/Chuan-Chen/PortfolioPages/static/css/main.2a11d655.css.map",
+    "main.a1d03a91.js.map": "/Chuan-Chen/PortfolioPages/static/js/main.a1d03a91.js.map"
   },
   "entrypoints": [
-    "static/css/main.172c4f28.css",
-    "static/js/main.a25c73fa.js"
+    "static/css/main.2a11d655.css",
+    "static/js/main.a1d03a91.js"
   ]
 }
