@@ -1,12 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Intro.css";
 import Resume from "../files/Chuan_Chen_Resume.pdf"
 import Profile_img from "../images/Profile.jpg";
 
 function Profile(props){
-
-    
-
     return (
         <div style = {{display: "grid", height: 250}}>
             <img src = {Profile_img} height = {160} style={{borderRadius: "100%", justifySelf: "center", alignSelf: "center", boxShadow: "0 0 4px black"}}></img>
@@ -15,10 +12,45 @@ function Profile(props){
     )
 }
 
+
+
+
 export default function Intro(props){
+
+    const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+    const [screenSize, setScreenSize] = useState({middleX: 0, middleY: 0});
+    const [offset, setOffset] = useState({offsetX: 0, offsetY: 0});
+
+    useEffect(()=>{
+        let x = 0;
+        let y = 0;
+        let midX = 0;
+        let midY = 0;
+        let offX = 0;
+        let offY = 0;
+        const updateMousePosition = e => {
+            x = e.clientX;
+            y = e.clientY;
+            midX = window.innerWidth / 2;
+            midY = window.innerHeight / 2;
+            offX = (x - midX) / midX * 15;
+            offY = -1 * (y - midY) / midY * 15;
+
+            setMousePosition({x: x, y: y});
+            setScreenSize({middleX: midX, middleY: midY});
+            setOffset({offsetX: offX, offsetY: offY})
+        };
+
+        window.addEventListener('mousemove', updateMousePosition);
+        return () => {
+            window.removeEventListener('mousemove', updateMousePosition);
+        }
+    }, []);
+    
     //<iframe className = "resume" src = {Resume} width={700} height={700} frameBorder={1}></iframe>
     return (
-        <div className = "intro">
+
+        <div className = "intro" style = {{transform: `perspective(5000px) rotateY(${offset.offsetX}deg) rotateX(${offset.offsetY}deg)`}} >
             <Profile></Profile>
             <br></br>
             <div>Resume📄: <a href = {Resume} alt = "Resume" target = "_blank">Resume</a></div>
@@ -35,5 +67,7 @@ export default function Intro(props){
             </div>
             <div style={{fontSize: "11px"}}><br></br>Work in progress...</div>
         </div>
+
+        
     )
 }
