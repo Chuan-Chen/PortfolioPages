@@ -60,6 +60,7 @@ export default function Intro(props){
             <div style = {{width: "400px"}}>About✍️: Hi my name is Chuan Chen, an experienced C++ Tutor with a demonstrated history of working in the higher education. Skilled in Sales, Visual and Intercultural Communication, JavaScript, NodeJS, HTML, CSS, C++, Java, REST API and MongoDB.</div>
             <br></br>
             <div>Projects: 
+                <li><a href = "https://message-board.nauhc.dev" target = "_blank">Messageboard</a></li>
                 <li><a href = "https://shop.nauhc.dev/" target = "_blank">DeShop</a></li>
                 <li><a href = "https://chuan-chen.github.io/Fullstack-Projects/IP/index.html" target = "_blank">IPFinder</a></li>
                 <li><a href = "https://chuan-chen.github.io/Fullstack-Projects/Weather/dist/index.html" target = "_blank">Weather App</a></li>
