@@ -57,7 +57,7 @@ export default function Intro(props){
             <div>Phone📞: (917)605-6373</div>
             <div>Email📧: <a href = "mailto:chuan.chen.info@gmail.com">chuan.chen.info@gmail.com</a></div>
             <br></br>
-            <div style = {{width: "400px"}}>About✍️: Hi my name is Chuan Chen, an experienced C++ Tutor with a demonstrated history of working in the higher education. Skilled in Sales, Visual and Intercultural Communication, JavaScript, NodeJS, HTML, CSS, C++, Java, REST API and MongoDB.</div>
+            <div style = {{width: "400px"}}>About✍️: Hi my name is Chuan Chen, an experienced C++ Tutor and IT Specialist. Skilled Networking, self-hosting, JavaScript, NodeJS, HTML, CSS, C++, Java, REST API and MongoDB. Currently builing an <a href="https://www.linkedin.com/in/chuan-chen-496199214/overlay/projects/162029054/multiple-media-viewer/?profileId=ACoAADYh5HIBJ4gEWA3aNLzjUa3wOnNQZHQ06cY&treasuryMediaId=1730507831179" target="_blank">Inventory Management</a> app. </div>
             <br></br>
             <div>Projects: 
                 <li><a href = "https://message-board.nauhc.dev" target = "_blank">Messageboard</a></li>

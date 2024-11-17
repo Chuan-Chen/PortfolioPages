@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a11d655.css",
-    "main.js": "/static/js/main.27c41255.js",
+    "main.css": "/static/css/main.11688499.css",
+    "main.js": "/static/js/main.9a13163b.js",
     "static/media/Profile.jpg": "/static/media/Profile.9f9ca73bb8655ba4eb9a.jpg",
     "static/media/Chuan_Chen_Resume.pdf": "/static/media/Chuan_Chen_Resume.7fd6b8ebc681aa377906.pdf",
     "static/media/github_icon.png": "/static/media/github_icon.cf689a47e6d1229c311a.png",
@@ -10,11 +10,11 @@
     "static/media/gmail_icon.png": "/static/media/gmail_icon.1ea1ad5ff6a827f59bee.png",
     "static/media/linkedin_icon.png": "/static/media/linkedin_icon.6773075d296dff8ca440.png",
     "index.html": "/index.html",
-    "main.2a11d655.css.map": "/static/css/main.2a11d655.css.map",
-    "main.27c41255.js.map": "/static/js/main.27c41255.js.map"
+    "main.11688499.css.map": "/static/css/main.11688499.css.map",
+    "main.9a13163b.js.map": "/static/js/main.9a13163b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a11d655.css",
-    "static/js/main.27c41255.js"
+    "static/css/main.11688499.css",
+    "static/js/main.9a13163b.js"
   ]
 }
